@@ -1,0 +1,62 @@
+{
+  "name": "rjs-syntax",
+  "displayName": "RJS Syntax Highlight",
+  "description": "JavaScript syntax highlighting with Russian keywords and Russian-flag colour scheme.",
+  "version": "0.0.1",
+  "engines": {
+    "vscode": "^1.80.0"
+  },
+  "categories": [
+    "Languages"
+  ],
+  "activationEvents": [
+    "onLanguage:rjs"
+  ],
+  "main": "./src/extension.js",
+  "contributes": {
+    "languages": [
+      {
+        "id": "rjs",
+        "aliases": [
+          "RJS",
+          "Russian JavaScript"
+        ],
+        "extensions": [
+          ".rjs"
+        ],
+        "configuration": "./language-configuration.json"
+      }
+    ],
+    "grammars": [
+      {
+        "language": "rjs",
+        "scopeName": "source.rjs",
+        "path": "./syntaxes/rjs.tmLanguage.json"
+      }
+    ],
+    "themes": [
+      {
+        "label": "RJS Flag Theme",
+        "uiTheme": "vs-dark",
+        "path": "./themes/rjs-flag-color-theme.json"
+      }
+    ]
+  },
+  "scripts": {
+    "vscode:prepublish": "npm run compile",
+    "compile": "tsc -p ./",
+    "watch": "tsc -watch -p ./",
+    "postinstall": "node ./postinstall.js"
+  },
+  "devDependencies": {
+    "typescript": "^5.0.0",
+    "@types/vscode": "^1.80.0",
+    "vscode": "^1.80.0"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/yourusername/rjs-vscode"
+  },
+  "author": "Your Name <you@example.com>",
+  "license": "MIT"
+}

@@ -1,0 +1,49 @@
+{
+    "name": "RJS Flag Theme",
+    "type": "dark",
+    "colors": {},
+    "tokenColors": [
+        {
+            "scope": "keyword.control.rjs",
+            "settings": {
+                "foreground": "#0039A6"
+            }
+        },
+        {
+            "scope": "string",
+            "settings": {
+                "foreground": "#D52B1E"
+            }
+        },
+        {
+            "scope": "comment",
+            "settings": {
+                "foreground": "#FFFFFF"
+            }
+        },
+        {
+            "scope": "entity.name.function.rjs",
+            "settings": {
+                "foreground": "#0039A6"
+            }
+        },
+        {
+            "scope": "variable.parameter.rjs",
+            "settings": {
+                "foreground": "#FFFFFF"
+            }
+        },
+        {
+            "scope": "constant.numeric.rjs",
+            "settings": {
+                "foreground": "#D52B1E"
+            }
+        },
+        {
+            "scope": "support.type.rjs",
+            "settings": {
+                "foreground": "#0039A6"
+            }
+        }
+    ]
+}

@@ -1,0 +1,27 @@
+{
+    "$schema": "https://raw.githubusercontent.com/martinring/tmlanguage/master/tmlanguage.json",
+    "name": "RJS",
+    "scopeName": "source.rjs",
+    "patterns": [
+        {
+            "include": "source.js"
+        },
+        {
+            "name": "keyword.control.rjs",
+            "match": "\\b(если|иначе|для|пока|функция|возврат|перем|константа|класс|расширить|новый|пробовать|отлавливать|исключение)\\b"
+        },
+        {
+            "name": "entity.name.function.rjs",
+            "match": "\\b(\\w+)\\s*(?=\\()"
+        },
+        {
+            "name": "constant.numeric.rjs",
+            "match": "\\b\\d+(?:\\.\\d+)?\\b"
+        },
+        {
+            "name": "variable.parameter.rjs",
+            "match": "\\b[а-яА-Я_][\\w]*\\b"
+        },
+    ],
+    "repository": {}
+}
