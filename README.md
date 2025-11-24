@@ -1,7 +1,9 @@
 # RJS VS Code Syntax Highlight Extension
 
-[![Version](https://img.shields.io/badge/version-0.0.1-blue.svg)](https://github.com/yourusername/rjs-vscode/releases)
+[![Build Status](https://github.com/nike-17/rjs-vscode/actions/workflows/publish.yml/badge.svg?branch=main)](https://github.com/nike-17/rjs-vscode/actions/workflows/publish.yml)
+[![Version](https://img.shields.io/github/v/tag/nike-17/rjs-vscode?label=version)](https://github.com/nike-17/rjs-vscode/releases)
 [![License](https://img.shields.io/badge/license-MIT-green.svg)](LICENSE)
+[![VS Marketplace](https://img.shields.io/visual-studio-marketplace/v/nike-17.rjs-syntax?label=VS%20Marketplace)](https://marketplace.visualstudio.com/items?itemName=nike-17.rjs-syntax)
 
 ## Overview
 
@@ -27,7 +29,7 @@ It also adds scopes for functions, variables, and numeric literals, giving a vib
 ### Local development / testing
 ```bash
 # Clone the repository
-git clone https://github.com/yourusername/rjs-vscode.git
+git clone https://github.com/nike-17/rjs-vscode.git
 cd rjs-vscode/rjs-syntax
 
 # Install dependencies

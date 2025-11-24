@@ -1,0 +1,7 @@
+# Node / VS Code extension typical ignores
+node_modules/
+dist/
+*.vsix
+.vscode/
+*.log
+*.tmp
